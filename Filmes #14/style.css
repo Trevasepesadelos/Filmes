@@ -23,8 +23,19 @@ header a{
 	color: white;
 	text-decoration: none;
 }
-
-
+header input{
+	margin:20px;
+	width: 250px;
+	height: 40px;
+	border-radius:8px;
+	background-color: #1C1C1C;
+	border: none;
+	text-align: justify;
+	color:white;
+}
+header input::placeholder{
+	padding-left: 10px;
+}
 
 
 
@@ -38,8 +49,8 @@ main .slide{
 	align-items:center;
 }
 main .slide h3{
-    color: white;
-    font-size: 40px;
+    	color: white;
+  	font-size: 40px;
 }
 main .slide h2{
 	color:red;
@@ -63,17 +74,22 @@ main .descricao-slide {
 main .catalogo{
 	margin:50px;
 }
-main .catalogo .destaque-vertodos{
+main .catalogo ul .destaque-vertodos{
 	display:flex;
 	justify-content: space-between;
+	width: 100%;
+}
+main .catalogo ul .destaque-vertodos a{
+	text-decoration:none;
+	color: red;
 }
 main .catalogo ul li{
 	width: 180px;
-	height: 350px;
+	height: 380px;
 	border: 1px solid gray;
 	overflow: hidden;
 	border-radius: 10px;
-    margin: 20px;
+    	margin: 20px;
 }
 main .catalogo ul li img{
 	width: 100%;
@@ -82,7 +98,7 @@ main .catalogo ul li img{
 main .catalogo ul li h2{
 	font-size: 18px;
 	text-align: center;
-    line-height: 20px;
+   	line-height: 20px;
 	margin: 10px 0;
 }
 main .catalogo ul li .categoria{
@@ -98,8 +114,8 @@ main .catalogo ul li .avaliacao{
 	padding:0 0 10px 10px;
 }
 main .catalogo ul{
-	width: 1160px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+	width: 1660px;
+    	display: flex;
+  	flex-wrap: wrap;
+ 	margin: 0 auto;
 }

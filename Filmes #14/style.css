@@ -1,7 +1,8 @@
 
 
 body{
-	font-family:arial;
+	font-family: "Arial";
+	background: #f3f3f3;
 }
 *{
 	margin: 0; padding: 0;
@@ -86,10 +87,10 @@ main .catalogo ul .destaque-vertodos a{
 main .catalogo ul li{
 	width: 180px;
 	height: 407px;
-	border: 1px solid gray;
 	overflow: hidden;
 	border-radius: 10px;
 	margin: 20px;
+	background: #ffffff;
 }
 main .catalogo ul li img{
 	width: 100%;
@@ -115,9 +116,13 @@ main .catalogo ul li .avaliacao{
 	padding:0 0 10px 10px;
 }
 main .catalogo ul{
-	width: 1660px;
+	width: 1160px;
     	display: flex;
   	flex-wrap: wrap;
  	margin: 0 auto;
 }
-
+footer{
+	background: #000;
+	height: 350px;
+	width: 100%;
+}

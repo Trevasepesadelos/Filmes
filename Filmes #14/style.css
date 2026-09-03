@@ -85,7 +85,7 @@ main .catalogo ul .destaque-vertodos a{
 	color: red;
 }
 main .catalogo ul li{
-	width: 180px;
+	width: 200px;
 	height: 407px;
 	overflow: hidden;
 	border-radius: 10px;
@@ -94,7 +94,7 @@ main .catalogo ul li{
 }
 main .catalogo ul li img{
 	width: 100%;
-	height: 260px;
+	height: 270px;
 }
 main .catalogo ul li h2{
 	font-size: 18px;
@@ -117,7 +117,7 @@ main .catalogo ul li .avaliacao{
 }
 main .catalogo ul{
 	width: 1160px;
-    	display: flex;
+    display: flex;
   	flex-wrap: wrap;
  	margin: 0 auto;
 }
@@ -125,4 +125,27 @@ footer{
 	background: #000;
 	height: 350px;
 	width: 100%;
+    display: flex;
+    padding: 15px;
+}
+footer div{
+    width: 33%;
+    height:350px;
+    border: 1px solid #fff;
+}
+footer .sobre{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+footer h2{
+    font-size: 28px;
+    margin:20px;
+}
+footer p{
+    font-size: 18px;
+    line-height: 26px;
+    margin:20px;
 }

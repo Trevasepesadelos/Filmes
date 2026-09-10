@@ -127,6 +127,7 @@ footer{
 	width: 100%;
     display: flex;
     padding: 15px;
+    color:white;
 }
 footer div{
     width: 33%;
@@ -134,18 +135,37 @@ footer div{
     border: 1px solid #fff;
 }
 footer .sobre{
-    color:white;
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    align-items:center;
 }
-footer h2{
-    font-size: 28px;
-    margin:20px;
+footer .sobre h2{
+    font-size: 32px;
+    margin: 15px 0 0 40px;
 }
-footer p{
+footer .sobre p{
     font-size: 18px;
     line-height: 26px;
-    margin:20px;
+    margin: 20px 0 0 40px;
+}
+
+footer .menu{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+footer .menu ul{
+    display: flex;
+    flex-direction: column;
+}
+footer .menu ul li{
+    list-style:none;
+    margin: 5px 0 5px 20px;
+}
+footer .menu ul a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer .menu ul li a:hover{
+    color: red;
 }

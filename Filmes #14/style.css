@@ -23,6 +23,16 @@ ul {
 header a{
 	color: white;
 	text-decoration: none;
+    
+}
+header a:hover{
+    color:red;
+}
+header a:active{
+    color:green;
+}
+header a:visited{
+    color:purple;
 }
 header input{
 	margin:20px;

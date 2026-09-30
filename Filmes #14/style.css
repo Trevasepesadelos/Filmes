@@ -154,7 +154,6 @@ footer{
 }
 footer div{
     width: 33%;
-    height:315px;
 }
 footer .sobre h2{
     font-size: 32px;
@@ -252,4 +251,8 @@ footer .copyright{
     padding: 4px 7px;
     font-size: 22px;
     border-radius: 7px;
+}
+.disponivel ul li:hover{
+	background:black;
+	cursor:pointer;
 }

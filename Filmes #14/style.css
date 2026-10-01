@@ -256,3 +256,17 @@ footer .copyright{
 	background:black;
 	cursor:pointer;
 }
+/*MENU DROPDOWN*/
+.dropdown-content{
+	display:none;
+}
+.dropdown:hover .dropdown-content{
+	display:flex;
+	flex-direction:column;
+	position:absolute;
+	background:black;
+	padding: 0 10px;
+}
+.dropdown-content a{
+	padding: 7px 0;
+}
